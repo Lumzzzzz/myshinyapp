@@ -2,11 +2,11 @@ library(shiny)
 
 ui <- fluidPage(
   titlePanel("My First Shiny App"),
-  h2("My app from scratch"),
   sidebarLayout(
     sidebarPanel(
+      h2("My app from scratch"),
       sliderInput("newbins",
-        label = "Number of bins:",
+        label = "Number of newbins:",
         min = 1,
         max = 50,
         value = 30
