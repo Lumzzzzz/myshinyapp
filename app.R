@@ -7,6 +7,8 @@ library(shinylive)
 library(bslib)
 library(thematic)
 
+
+
 thematic_shiny(font = "auto")
 
 ui <- fluidPage(
