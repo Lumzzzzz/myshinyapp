@@ -3,6 +3,7 @@ library(ggplot2)
 library(glue)
 library(dplyr)
 library(DT)
+library(shinylive)
 
 ui <- fluidPage(
   titlePanel("My First Shiny App"),
